@@ -1,11 +1,14 @@
-import React from "react";
-import "./styles.css";
+import React from 'react';
+import './styles.css';
+
+import Page from './components/Page';
 
 export default function App() {
   return (
-    <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+    <div className="container">
+      <h1>Pagination Example</h1>
+      <h2>Album List Below</h2>
+      <Page />
     </div>
   );
 }
